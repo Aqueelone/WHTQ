@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM bugs WHERE `close_date` > "2012-03-15" AND `open_date` <= "2016-08-01"
