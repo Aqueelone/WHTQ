@@ -7,7 +7,7 @@ MYSQL sections:
 - [x] 1. [SQL code](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql1.sql)
 - [x] 2. [SQL code](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql2.sql)
 - [x] 3. [SQL code](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql3.sql)
-- [x] 4. [SQL code](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql4.sql) optionaly [What table and data I use in this question](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql3.sql) 
+- [x] 4. [SQL code](https://github.com/Aqueelone/WHTQ/blob/master/mysql/mysql4.sql) optionaly [What table and data I use in this question](https://github.com/Aqueelone/WHTQ/blob/master/mysql/bugs.sql) 
 
 JAVA sections:
 - [x] 1. ...check if a string is a palindrome
