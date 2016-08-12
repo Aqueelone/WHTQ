@@ -1,7 +1,7 @@
  bigest20 | bigest15 | small4 | small8 | medium12 | medium12 | bigest15 | bigest20 | medium12 
  bigest20 | bigest15 | small4 | small8 | medium12 | medium12 | bigest15 | bigest20 | medium12 
  bigest20 | bigest15 | small4 | small8 | bigest15 | bigest15 | bigest20 | bigest20 | medium12 
- bigest20 | bigest15 | small4 | small8 | bigest15 | bigest15 | bigest20 | bigest20 | medium12
- bigest20 | bigest15 | small8 | small8 | bigest15 | bigest15 | bigest20 | bigest20 | medium12
+ bigest20 | bigest15 | small4 | small8 | bigest15 | bigest15 | bigest20 | bigest20 | medium12 
+ bigest20 | bigest15 | small8 | small8 | bigest15 | bigest15 | bigest20 | bigest20 | medium12 
  small8 | bigest20 | bigest20 | bigest20 | medium12 | bigest15 | bigest20 
  small8 | bigest20 | bigest20 | medium12 | medium12 | bigest15 | bigest20 
