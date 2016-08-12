@@ -6,7 +6,6 @@
 package com.whqt;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -48,19 +47,27 @@ public class KComplementaryTest {
         System.out.println("FindComplimentary");
         Integer K = 10;
         Integer[] A = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
-        Map<Integer, Integer> C = new HashMap<>( );
+        Map<Integer, Integer> expected = new HashMap<>( );
         
-        C.put(A[0], A[8]);
-        C.put(A[1], A[7]);
-        C.put(A[2], A[6]);
-        C.put(A[3], A[5]);
-        C.put(A[5], A[3]);
-        C.put(A[6], A[2]);
-        C.put(A[7], A[1]);
-        C.put(A[8], A[0]);
+        expected.put(0, 8);
+        expected.put(1, 7);
+        expected.put(2, 6);
+        expected.put(3, 5);
+        expected.put(5, 3);
+        expected.put(6, 2);
+        expected.put(7, 1);
+        expected.put(8, 0);
         
         Map<Integer, Integer> result = KComplementary.findComplimentary(K, A);
-        assertEquals("wrong result! expected: "+C.toString()+" but was: "+result.toString(), C, result);
+        System.out.println("result array: "+result.toString());
+        assertEquals("wrong size! expected: "+expected.size()+" but was: "+result.size(), 
+                                                        expected.size(), result.size());
+        expected.entrySet().stream().forEach((value) -> {
+            Integer actualValue = result.get(value.getKey());
+            assertNotNull("actual value is apsent!", actualValue);
+            assertEquals("wrong value! expected: "+value.getValue()+"but was: "+actualValue,
+                    value.getValue(), actualValue);
+        });
     }
     
 }
