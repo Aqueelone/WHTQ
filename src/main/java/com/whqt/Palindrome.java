@@ -6,6 +6,11 @@ package com.whqt;
  * @author Sergy Nazarevich
  */
 public class Palindrome {
+    /**
+     * this method return true if string is palindrom
+     * @param testString string which we about to test
+     * @return boolean -true if it'is palindrome 
+     */
     public static boolean isPalindrome(String testString) {
         int len = testString.length();
         if(len < 2) return false;

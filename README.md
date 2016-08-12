@@ -16,4 +16,10 @@ JAVA sections:
 - [x] 2. ...find K-complementary
          [Java code of KComplementary.Class](https://github.com/Aqueelone/WHTQ/blob/master/src/main/java/com/whqt/KComplementary.java) which implement full logic of this check.
          [Unit test for KComplementary.Class](https://github.com/Aqueelone/WHTQ/blob/master/src/test/java/com/whqt/KComplementaryTest.java) which passed "as green" now.
-- [ ] 3. ...find the top 100000 most frequent phrases        
+- [X] 3. ...find the top 100000 most frequent phrases
+         [Java code of TagOrganizer.Class](https://github.com/Aqueelone/WHTQ/blob/master/src/main/java/com/whqt/TagOrganizer.java) which implement full logic of this check.
+         [Unit test for TagOrganizer.Class](https://github.com/Aqueelone/WHTQ/blob/master/src/test/java/com/whqt/TagOrganizer.java) which passed "as green" now.
+         [TEST.TXT file for testing this task](https://github.com/Aqueelone/WHTQ/blob/master/src/test/resources/text.txt)
+
+For testing You could use command `gradle test`.
+        
