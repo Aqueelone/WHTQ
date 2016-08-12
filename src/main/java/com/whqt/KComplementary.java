@@ -12,6 +12,12 @@ import java.util.Map;
  * @author Sergy Nazarevich
  */
 public class KComplementary {
+    /**
+     * this method check K-complimentary pair in A array
+     * @param K modus of complimentary
+     * @param A array when we about to check
+     * @return pair if indexes of complimentary elements of A array 
+     */
     public static Map<Integer, Integer> findComplimentary( Integer K, Integer[] A ){
         Map<Integer, Integer> C = new HashMap<>( );
         Multimap<Integer, Integer> Am = ArrayListMultimap.create();
